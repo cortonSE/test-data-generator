@@ -115,7 +115,15 @@ class NumberMutation {
 
 
     public static String convertToEuropeanStyle(String number) {
-        double realNumber = Double.parseDouble(number);
+        double realNumber = 0, defaultNumber = Math.random() * 1000;
+
+        try {
+            realNumber = Double.parseDouble(number);
+        }
+        catch (Exception e) {
+            realNumber = defaultNumber;
+        }
+
         String europeanStyle = NumberFormat.getNumberInstance(Locale.ENGLISH).format(realNumber);
         europeanStyle = europeanStyle.replaceAll("\\.", "a");
         europeanStyle = europeanStyle.replaceAll(",", ".");

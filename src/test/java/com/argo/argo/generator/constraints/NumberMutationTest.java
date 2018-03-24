@@ -25,13 +25,17 @@ class NumberMutationTest {
 
     @Test
     void testMutateOptions() {
-        assertTrue(NumberMutation.mutate(Mutation.CREATE_NEGATIVE_INTEGER).startsWith("-"));
-        assertFalse(NumberMutation.mutate(Mutation.CREATE_POSITIVE_FLOATING_POINT).startsWith("-"));
+        assertTrue(NumberMutation.mutate(
+                Mutation.CREATE_NEGATIVE_INTEGER).startsWith("-"));
+        assertFalse(NumberMutation.mutate(
+                Mutation.CREATE_POSITIVE_FLOATING_POINT).startsWith("-"));
 
-        assertTrue(NumberMutation.mutate(Mutation.CREATE_NEGATIVE_INTEGER_WITH_COMMA).startsWith("-"));
+        assertTrue(NumberMutation.mutate(
+                Mutation.CREATE_NEGATIVE_INTEGER_WITH_COMMA).startsWith("-"));
         assertFalse(NumberMutation.mutate(Mutation.CREATE_POSITIVE_FLOATING_POINT_WITH_COMMA).startsWith("-"));
 
-        assertTrue(NumberMutation.mutate(Mutation.CREATE_SCIENTIFIC_NOTATION_NUMBER).contains("E"));
+        assertTrue(NumberMutation.mutate(
+                Mutation.CREATE_SCIENTIFIC_NOTATION_NUMBER).contains("E"));
 
         assertEquals("0", NumberMutation.mutate(Mutation.CREATE_ZERO));
     }
@@ -53,14 +57,18 @@ class NumberMutationTest {
     }
 
 
+    @SuppressWarnings("ResultOfMethodCallIgnored")
     @Test
     void testOverflowPositiveInt() {
-        Assertions.assertThrows(NumberFormatException.class, () -> Integer.parseInt(NumberMutation.createPositiveOverflowInteger()));
+        Assertions.assertThrows(NumberFormatException.class,
+                () -> Integer.parseInt(NumberMutation.createPositiveOverflowInteger()));
     }
 
+    @SuppressWarnings("ResultOfMethodCallIgnored")
     @Test
     void testOverflowNegativeInt() {
-        Assertions.assertThrows(NumberFormatException.class, () -> Integer.parseInt(NumberMutation.createNegativeOverflowInteger()));
+        Assertions.assertThrows(NumberFormatException.class,
+                () -> Integer.parseInt(NumberMutation.createNegativeOverflowInteger()));
     }
 
 

@@ -5,7 +5,10 @@ import com.argo.argo.generator.annotations.Note;
 
 class StringMutation {
 
-    @Note(message = "Some parameters appear to be out-of-order. DO NOT CHANGE THE ORDER.")
+    @Note(message =
+            "Some parameters appear to be out-of-order (on purpose). " +
+            "DO NOT CHANGE THE ORDER."
+    )
     public static String mutate(int option, String... data) {
         String mutatedString = "";
 

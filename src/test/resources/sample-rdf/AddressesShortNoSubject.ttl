@@ -58,4 +58,5 @@
     ds:st_name "FLORIDA" ;
     ds:st_suffix_type "BLVD" ;
     ds:zip "70806" ;
-    ds:something "Some random thing" .
+    ds:something "Some random thing" ;
+    ds:dob "11/11/2011".

@@ -69,7 +69,12 @@ class DateTimeMutation {
 
     public static String createPastOrFutureDate(String anchorDate, int daysVariance) {
         Calendar calendar = Calendar.getInstance();
-        calendar.setTime(new Date(anchorDate));
+        try {
+            calendar.setTime(new Date(anchorDate));
+        }
+        catch (Exception e) {
+            calendar.setTime(new Date());
+        }
         calendar.add(Calendar.DATE, daysVariance);
         return calendar.getTime().toString();
     }

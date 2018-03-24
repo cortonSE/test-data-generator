@@ -61,7 +61,8 @@ class DateTimeMutationTest {
 
         for(int i = 0; i < 10; i++) {
             assertFalse(DateTimeMutation.createDateInAllFormatsExcept(
-                    "yyyy-MM-dd hh:mm:ss").matches("\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}"));
+                    "yyyy-MM-dd hh:mm:ss").matches(
+                            "\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}"));
         }
 
     }
