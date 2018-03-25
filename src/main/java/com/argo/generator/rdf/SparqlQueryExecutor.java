@@ -30,7 +30,7 @@ public class SparqlQueryExecutor {
 
 
     public static void updateDataToRemoteFusekiServer(Model model, String modelName) {
-        String fullURI = String.format("http://localhost:3030/%s", modelName);
+        String fullURI = String.format("http://localhost:3030/%s/sparql", modelName);
         RDFConnection connection = RDFConnectionFactory.connect(fullURI);
         connection.put(model);
     }

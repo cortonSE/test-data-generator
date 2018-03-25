@@ -43,19 +43,25 @@ Here are some additional tools and practice recommendations for working on this 
 
 ## Initial Set Up and Run
 
+To view the summary of the project structure, click [here](./ProjectStructure.md).
 
 Here are instructions to setup the project in IntelliJ and run for the first time:
 
-*1. Jena*
+***Jena***
 
 1. Run the [fuseki-server.bat](fuseki/fuseki-server.bat) file
 
-*2. Back-end*
+***Back-end***
 
+1. Run the [ArgoApplication.java](src/main/java/com/argo/ArgoApplication.java)
 
-*3. Front-end*
+***Front-end***
 
-*4. ESLint*
+1. Navigate to [static](src/main/resources/static) folder
+2. Run `npm start`
+3.  The [index.html](src/main/resources/static/index.html) file should be generated automatically. Open this file in any browser
+
+***ESLint***
 
 1.. To be able to run the static code analysis tool ESLint, you will need to run the commands:
 ```
@@ -150,6 +156,9 @@ To execute the test, do the followings:
 
 Add additional notes about how to deploy this on a live system
 
+## Current Status
+
+Check out current features, bugs reports, limitations, etc. [here](CurrentFeaturesAndBugsReport.md)
 
 ## Contributors
 

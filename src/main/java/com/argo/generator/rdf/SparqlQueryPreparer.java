@@ -59,7 +59,8 @@ public class SparqlQueryPreparer {
             query.append(statement.getPredicate().toString()).append("> ");
             if (object.isResource()) {
                 query.append("<").append(object.toString()).append("> .\n");
-            } else if (object.isLiteral()) {
+            }
+            else if (object.isLiteral()) {
                 query.append("\"").append(object.toString()).append("\" .\n");
             }
         }

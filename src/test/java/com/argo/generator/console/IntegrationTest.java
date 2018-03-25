@@ -19,9 +19,9 @@ public class IntegrationTest {
 
     public static void main(String[] args) {
         String limit = "80";
-        String[] predicates = {"council_person", "full_address", "city", "zip", "dob"};
+        String[] predicates = {"council_person", "full_address", "city", "zip"};
         String query = SparqlQueryPreparer.createSelectQuery(limit, predicates);
-        String modelName = "AddressesShortNoSubject";
+        String modelName = "Addresses";
 
         // good data
         ResultSet originalResultSet = SparqlQueryExecutor.retrieveDataFromRemoteFusekiServer(modelName, query);
@@ -45,7 +45,7 @@ public class IntegrationTest {
         SparqlQueryExecutor.updateDataToLocalRdfGraph(badModelFromFuseki, "BadModelFuseki.ttl");
 
         // update bad data to fuseki
-        SparqlQueryExecutor.updateDataToRemoteFusekiServer(badModelFromFuseki, "BadModel");
+//        SparqlQueryExecutor.updateDataToRemoteFusekiServer(badModelFromFuseki, "BadModel");
     }
 
 }
