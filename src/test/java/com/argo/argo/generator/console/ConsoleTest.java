@@ -28,7 +28,7 @@ public class ConsoleTest {
         String[] predicates = {"council_person", "full_address", "city", "zip", "dob"};
 
         // good data
-        ResultSet originalResultSet = executeQuery(limit, predicates);
+        ResultSet originalResultSet = executeQueryAgainstLocalModel(limit, predicates);
         List<Triple> triples = createListOfTriples(
                 originalResultSet, null, predicates
         );
@@ -36,15 +36,25 @@ public class ConsoleTest {
         model = RDFGenerator.addMultipleTriplesToModel(model, triples);
         saveRDFGraphToFile(model, "GoodModel.ttl");
 
-        // bad data
-        ResultSet modifiedResultSet = executeQuery(limit, predicates);
+        // bad data from local model
+        ResultSet modifiedResultSet = executeQueryAgainstLocalModel(limit, predicates);
         ConstraintCollection constraintCollection = createConstraintCollection();
         List<Triple> modifiedTriples = createListOfTriples(
                 modifiedResultSet, constraintCollection, predicates
         );
         Model badModel = RDFGenerator.createDefaultModel();
         badModel = RDFGenerator.addMultipleTriplesToModel(badModel, modifiedTriples);
-        saveRDFGraphToFile(badModel, "BadModel.ttl");
+        saveRDFGraphToFile(badModel, "BadModelLocal.ttl");
+
+        // bad data from remote server
+        ResultSet modifiedResultSetFromFuseki = executeQueryAgainstRemoveFusekiModel(limit, predicates);
+        ConstraintCollection constraintCollection2 = createConstraintCollection();
+        List<Triple> modifiedTriples2 = createListOfTriples(
+                modifiedResultSetFromFuseki, constraintCollection2, predicates
+        );
+        Model badModelFromFuseki = RDFGenerator.createDefaultModel();
+        badModelFromFuseki = RDFGenerator.addMultipleTriplesToModel(badModelFromFuseki, modifiedTriples2);
+        saveRDFGraphToFile(badModelFromFuseki, "BadModelFuseki.ttl");
     }
 
 
@@ -89,13 +99,23 @@ public class ConsoleTest {
         "Currently reading base model from the local file." +
         "Prefer to be able to connect to Fuseki and read from it."
     )
-    private static ResultSet executeQuery(String limit, String... predicates) {
+    private static ResultSet executeQueryAgainstLocalModel(String limit, String... predicates) {
         String queryString = QueryPreparer.createSelectQuery(limit, predicates);
         Model model = ModelFactory.createDefaultModel();
         model.read("sample-rdf/AddressesShortNoSubject.ttl");
         Query query = QueryFactory.create(queryString);
         QueryExecution qExe = QueryExecutionFactory.create(query, model);
 
+        return qExe.execSelect();
+    }
+
+
+    private static ResultSet executeQueryAgainstRemoveFusekiModel(String limit, String... predicates) {
+        String queryString = QueryPreparer.createSelectQuery(limit, predicates);
+        QueryExecution qExe = QueryExecutionFactory.sparqlService(
+                "http://localhost:3030/AddressesShortNoSubject/sparql",
+                queryString
+        );
         return qExe.execSelect();
     }
 
