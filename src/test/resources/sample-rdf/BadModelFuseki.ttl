@@ -1,0 +1,399 @@
+<Subject1>  <city>        <CLINTON> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <20851 PRIDE-BAYWOOD RD> ;
+        <zip>             <7072> .
+
+<Subject50>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <3641 CAGE ST> ;
+        <zip>             <7079> .
+
+<Subject22>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <2651 BRADY AVE> ;
+        <zip>             <7079> .
+
+<Subject63>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <10202 TANWOOD AVE> ;
+        <zip>             <7080> .
+
+<Subject35>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <1759 RAVEN WAY DR> ;
+        <zip>             <7079> .
+
+<Subject76>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <5033 FLOYNELL DR> ;
+        <zip>             <7080> .
+
+<Subject48>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <3545 ROBERT ST> ;
+        <zip>             <7079> .
+
+<Subject70>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <708 ADELIA LN> ;
+        <zip>             <7080> .
+
+<Subject42>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <5540 HILLCREST DR> ;
+        <zip>             <7079> .
+
+<Subject6>  <city>        <GREENWELL SPRINGS> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <12035 OLD CANAL RD> ;
+        <zip>             <7073> .
+
+<Subject14>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <6170 SANDY CREEK LN> ;
+        <zip>             <7079> .
+
+<Subject55>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <1465 AUDUBON AVE> ;
+        <zip>             <7080> .
+
+<Subject27>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <22865 SHELLMIRE RD> ;
+        <zip>             <7079> .
+
+<Subject68>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <9105 OXFORD PLACE DR> ;
+        <zip>             <7080> .
+
+<Subject0>  <city>        <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <21570 PORT HICKEY RD> ;
+        <zip>             <7079> .
+
+<Subject21>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <22651 PLANK RD> ;
+        <zip>             <7079> .
+
+<Subject62>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <4149 JEFFERSON WOODS DR> ;
+        <zip>             <7080> .
+
+<Subject34>  <city>       <GREENWELL SPRINGS> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <16816 PERNECIA AVE> ;
+        <zip>             <7073> .
+
+<Subject75>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <10014 N MAGNA CARTA PL> ;
+        <zip>             <7081> .
+
+<Subject47>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <9512 DEER RUN AVE> ;
+        <zip>             <7079> .
+
+<Subject19>  <city>       <GREENWELL SPRINGS> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <16621 ALPHONSE FORBES RD> ;
+        <zip>             <7073> .
+
+<Subject41>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <9510 ARBOR LN> ;
+        <zip>             <7079> .
+
+<Subject5>  <city>        <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <23820 SUNNYSIDE LN> ;
+        <zip>             <7079> .
+
+<Subject13>  <city>       <SLAUGHTER> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <3223 SAFER DR> ;
+        <zip>             <7077> .
+
+<Subject54>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <2571 CARNOUSTIE DR> ;
+        <zip>             <7079> .
+
+<Subject26>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <2561 BRADY AVE> ;
+        <zip>             <7079> .
+
+<Subject67>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <7345 SHEFFIELD CT> ;
+        <zip>             <7080> .
+
+<Subject39>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <3531 HOLLY ST> ;
+        <zip>             <7079> .
+
+<Subject20>  <city>       <BAKER> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <17616 WISDOM DR> ;
+        <zip>             <7071> .
+
+<Subject61>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <8255 DENBO DR> ;
+        <zip>             <7080> .
+
+<Subject33>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <4538 LEE ST> ;
+        <zip>             <7079> .
+
+<Subject74>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <11046 SHORELINE DR> ;
+        <zip>             <7080> .
+
+<Subject46>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <7004 LAKECREST DR> ;
+        <zip>             <7079> .
+
+<Subject18>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <181 W FLONACHER RD> ;
+        <zip>             <7079> .
+
+<Subject59>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <7355 WOODSTOCK DR> ;
+        <zip>             <7080> .
+
+<Subject40>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <21331 W.J. WICKER RD> ;
+        <zip>             <7079> .
+
+<Subject4>  <city>        <SLAUGHTER> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <6585 LEMON RD> ;
+        <zip>             <7077> .
+
+<Subject12>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <1338 CHURCH ST> ;
+        <zip>             <7079> .
+
+<Subject53>  <city>       <PRIDE> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <16012 GREENSTONE AVE> ;
+        <zip>             <7077> .
+
+<Subject25>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <4098 POINTE AVE> ;
+        <zip>             <7079> .
+
+<Subject66>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <1617 STONEGATE CT> ;
+        <zip>             <7081> .
+
+<Subject38>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <2950 AUDUBON CT> ;
+        <zip>             <7079> .
+
+<Subject79>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <10001 DWYERWOOD AVE> ;
+        <zip>             <7080> .
+
+<Subject60>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <3422 BRENTWOOD DR> ;
+        <zip>             <7080> .
+
+<Subject32>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <2563 BOUDREAUX AVE> ;
+        <zip>             <7079> .
+
+<Subject73>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <11810 BOYLAN AVE> ;
+        <zip>             <7080> .
+
+<Subject45>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <20018 HIGH PLAINS DR> ;
+        <zip>             <7079> .
+
+<Subject9>  <city>        <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <4118 OLD BAKER RD> ;
+        <zip>             <7079> .
+
+<Subject17>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <1368 BUFFALO HOLLOW CT> ;
+        <zip>             <7079> .
+
+<Subject58>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <1047 CARTER AVE> ;
+        <zip>             <7080> .
+
+<Subject3>  <city>        <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <22650 S HICKEY CT> ;
+        <zip>             <7079> .
+
+<Subject11>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <22827 HAZARD DR> ;
+        <zip>             <7079> .
+
+<Subject52>  <city>       <BAKER> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <7134 MELPOMENE DR> ;
+        <zip>             <7071> .
+
+<Subject24>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <5575 ROLLINS RD> ;
+        <zip>             <7079> .
+
+<Subject65>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <4523 E ESSEN HEIGHTS CT> ;
+        <zip>             <7080> .
+
+<Subject37>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <23419 SUNNYSIDE LN> ;
+        <zip>             <7079> .
+
+<Subject78>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <10202 HILLSBURY DR> ;
+        <zip>             <7080> .
+
+<Subject31>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <17525 BARNETT RD> ;
+        <zip>             <7079> .
+
+<Subject72>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <10105 STE 250 CAMELIA ST> ;
+        <zip>             <7081> .
+
+<Subject44>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <5374 FOX HUNT DR> ;
+        <zip>             <7079> .
+
+<Subject8>  <city>        <BAKER> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <1033 ROMAN DR> ;
+        <zip>             <7071> .
+
+<Subject16>  <city>       <GREENWELL SPRINGS> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <28200-28300 UND GREENWELL SPRINGS RD> ;
+        <zip>             <7073> .
+
+<Subject57>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <6910 LASALLE AVE> ;
+        <zip>             <7080> .
+
+<Subject29>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <4765 JULY ST> ;
+        <zip>             <7079> .
+
+<Subject2>  <city>        <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <16488 SAMUELS RD> ;
+        <zip>             <7079> .
+
+<Subject10>  <city>       <SLAUGHTER> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <5246 RUSH DR> ;
+        <zip>             <7077> .
+
+<Subject51>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <8200-8300 UND LOWER ZACHARY RD> ;
+        <zip>             <7079> .
+
+<Subject23>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <5328 ROLLINS RD> ;
+        <zip>             <7079> .
+
+<Subject64>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <10328 JEFFERSON HWY> ;
+        <zip>             <7080> .
+
+<Subject36>  <city>       <PRIDE> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <20920 CARSON RD> ;
+        <zip>             <7077> .
+
+<Subject77>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <4068 FLEET DR> ;
+        <zip>             <7080> .
+
+<Subject49>  <city>       <PRIDE> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <15751 PORT HUDSON-PRIDE RD> ;
+        <zip>             <7077> .
+
+<Subject30>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <24773 DELLA AVE> ;
+        <zip>             <7079> .
+
+<Subject71>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <9312 JEFFERSON HWY> ;
+        <zip>             <7080> .
+
+<Subject43>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <215 FLONACHER RD> ;
+        <zip>             <7079> .
+
+<Subject7>  <city>        <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <5220 KNIGHT DR> ;
+        <zip>             <7079> .
+
+<Subject15>  <city>       <GREENWELL SPRINGS> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <18590 STONEY POINT BURCH RD> ;
+        <zip>             <7073> .
+
+<Subject56>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <923 CROWN WAY> ;
+        <zip>             <7080> .
+
+<Subject28>  <city>       <ZACHARY> ;
+        <council_person>  <Trwe Welch> ;
+        <full_address>    <4212 FLORIDA ST> ;
+        <zip>             <7079> .
+
+<Subject69>  <city>       <BATON ROUGE> ;
+        <council_person>  <Mwtt Wwtson> ;
+        <full_address>    <11617 CEDAR PARK AVE> ;
+        <zip>             <7080> .
