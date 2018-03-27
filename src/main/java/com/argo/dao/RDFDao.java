@@ -1,6 +1,6 @@
-package com.argo.argo.dao;
+package com.argo.dao;
 
-import com.argo.argo.model.RDF_Model;
+import com.argo.model.RDF_Model;
 
 public interface RDFDao {
 

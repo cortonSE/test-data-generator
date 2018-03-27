@@ -1,8 +1,7 @@
-package com.argo.argo.controller;
+package com.argo.controller;
 
-import com.argo.argo.model.RDF_Model;
-import com.argo.argo.service.RDFService;
-import com.sun.org.apache.xpath.internal.operations.Mod;
+import com.argo.model.RDF_Model;
+import com.argo.service.RDFService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.argo.argo;
+package com.argo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,6 +1,6 @@
-package com.argo.argo.dao;
+package com.argo.dao;
 
-import com.argo.argo.model.RDF_Model;
+import com.argo.model.RDF_Model;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.springframework.stereotype.Repository;

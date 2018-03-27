@@ -1,4 +1,4 @@
-package com.argo.argo.model;
+package com.argo.model;
 
 public class RDF_Model {
     private final Integer id;
